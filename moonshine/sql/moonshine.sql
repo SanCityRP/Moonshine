@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS moonshine_batches (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    owner VARCHAR(60),
+    stage VARCHAR(20),
+    data LONGTEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
